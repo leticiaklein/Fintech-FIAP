@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./imgs/icon.png" rel="icon" />
+
+    <title>Zen Invest - Dashboard</title>
+</head>
+
+<body>
+    <main>
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2 ms-3">Zen Invest</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conteudoNavbar" aria-controls="conteudoNavbar" aria-expanded="false"
+                        aria-label="Expandir menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse fs-5" id="conteudoNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Fale Conosco</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Sair</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-grid gap-2 d-lg-flex justify-content-lg-end">
+                            <a class="nav-link active mt-1 text-light" href="#">Meu Perfil</a>
+                            <img class="perfil-foto rounded-circle" src="./imgs/no-picture.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="text-center mt-2 fs-1" id="boasVindas">
+            <p>Olá, <i>nomeUsuario</i> ;)</p>
+        </div>
+
+        <div class="dashboard">
+            <div class="d-flex justify-content-center mx-4 fs-3 rounded-pill" id="resumoMes">Resumo do mês</div>
+
+            <div class="row m-3">
+                <div class="col-6">
+                    <div class="d-flex text-center justify-content-center fw-normal fs-2" id="entradas">
+                        Entradas<br>R$ 1000,00
+                    </div>
+                    <button class="btn ms-1 rounded text-nowrap p-1 text-secondary" type="button">
+                        Adicionar entrada</button>
+                </div>
+
+                <div class="col-6">
+                    <div class="d-flex text-center justify-content-center fw-normal fs-2" id="entradas">
+                        Saídas<br>R$ 400,00
+                    </div>
+                    <button class="btn ms-1 rounded text-nowrap p-1 text-secondary" type="button">
+                        Adicionar saída</button>
+                </div>
+            </div>
+
+            <div class="row mx-4">
+                <div class="d-flex justify-content-center fs-4 rounded" id="resumoMes">Total Investido</div>
+                <p class="text-start fs-3 fw-bold my-1">R$ 250,00</p>
+                <div class="d-grid gap-2 d-sm-block" id="ultimoElemento">
+                    <button class="btn rounded text-nowrap text-secondary p-0" type="button">
+                        Acrescentar ou remover investimento</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer container text-center">
+            <div class="row mb-4">
+                <p class="text-center mt-3 fs-5">Precisa de ajuda? Fale com a gente ou veja nossa FAQ!</p>
+                <div class="col-6 mt-2">
+                    <a class="nav-link active fs-5" href="#">Link para falar com o suporte <i
+                            class="bi bi-chat"></i></a>
+                </div>
+                <div class="col-6 mt-2">
+                    <a class="nav-link active fs-5" href="#">Link para ver a nossa FAQ <i
+                            class="bi bi-question-circle"></i></a>
+                </div>
+            </div>
+
+            <section class="row">
+                <p class="text-center fs-5">Siga-nos nas redes sociais :D</p>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-instagram fs-5"></i></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-facebook fs-5"></i></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                </div>
+            </section>
+
+            <div class="text-center fw-semibold mt-3">Copyright &copy; 2022</div>
+        </footer>
+
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

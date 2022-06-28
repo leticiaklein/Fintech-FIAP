@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./imgs/icon.png" rel="icon" />
+
+    <title>Zen Invest</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    
+                    <a class="navbar-brand fs-2 ms-3">Zen Invest</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#conteudoNavbar" aria-controls="conteudoNavbar" aria-expanded="false"
+                        aria-label="Expandir menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse fs-5" id="conteudoNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Fale Conosco</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Redes Sociais</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Facebook</a></li>
+                                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                    <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="form-floating me-2 mt-2 mb-2 fs-6">
+                            <input type="email" class="form-control" id="login" aria-label="login-email"
+                                value="nome@exemplo.com">
+                            <label for="login">Email</label>
+                        </div>
+                        <div class="form-floating me-2 mt-2 mb-2 fs-6">
+                            <input type="senha" class="form-control" id="senha" aria-label="senha" value="**********">
+                            <label for="senha">Senha</label>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2 mb-2">
+                            <button class="btn btn me-md-2" style="background-color: #FFFFF0"
+                                type="button">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="d-flex justify-content-center mt-3">
+            <p id="logo" class="text-center">Zen Invest</p>
+        </div>
+
+        <section id="Carousel" class="carousel slide mx-5 my-3" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imgs/slide1.png" class="d-block w-100" alt="gaste menos e invista">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                        <p>Gaste menos do que ganha e invista a diferença</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/slide2.png" class="d-block w-100" alt="alcance aquele objetivo">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                        <p>Alcance aquele objetivo tão sonhado</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/slide3.png" class="d-block w-100" alt="bem-estar financeiro">
+                    <div class="carousel-caption d-none d-md-block fs-3">
+                        <p>Em direção ao bem-estar financeiro</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <div class="d-grid gap-2 col-6 mx-auto mb-4">
+            <button class="btn text-light fs-5" type="button" id="criarConta">
+                <a class="nav-link active" href="#">Crie sua conta :)</a>
+            </button>
+        </div>
+
+        <footer class="footer container text-center">
+            <div class="row mb-4">
+                <p class="text-center mt-3 fs-5">Precisa de ajuda? Fale com a gente ou veja nossa FAQ!</p>
+                <div class="col-6 mt-2">
+                    <a class="nav-link active fs-5" href="#">Link para falar com o suporte <i class="bi bi-chat"></i></a>
+                </div>
+                <div class="col-6 mt-2">
+                    <a class="nav-link active fs-5" href="#">Link para ver a nossa FAQ <i class="bi bi-question-circle"></i></a>
+                </div>
+            </div>
+
+            <section class="row">
+                <p class="text-center fs-5">Siga-nos nas redes sociais :D</p>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-instagram fs-5"></i></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-facebook fs-5"></i></a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="nav-link active" href="#"><i class="bi bi-linkedin fs-5"></i></a>
+                </div>
+            </section>
+
+            <div class="text-center fw-semibold mt-3">Copyright &copy; 2022</div>
+        </footer>
+
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
